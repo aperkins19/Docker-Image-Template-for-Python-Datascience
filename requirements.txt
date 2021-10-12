@@ -1,0 +1,6 @@
+pandas
+matplotlib
+scipy
+numpy==1.19.3
+seaborn
+biopython
