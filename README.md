@@ -9,6 +9,8 @@ Deployment:
 
 // cd #the-path-to-your-directory-here
 
+Note: a useful trick to get the path address is to open the directory in File Explorer and in the URL-like navigation at the top, right click on your directory and 'copy address as text. Paste that in to your commandline window
+
 3. Build the Docker Image
 
 // docker build -t datascience_app .
