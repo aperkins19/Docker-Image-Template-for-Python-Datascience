@@ -9,6 +9,8 @@ from seaborn.matrix import heatmap
 from Bio import SeqIO
 
 def print_all_df(df):
+    """ function to print a full dataframe """
+    
     # Permanently changes the pandas settings
     pd.set_option('display.max_rows', None)
     pd.set_option('display.max_columns', None)
@@ -23,7 +25,8 @@ def print_all_df(df):
     # Resets the options
     pd.reset_option('all')
 
-
+### PLACEHOLDER CODE
+    
 #navigation
 path = "genbank_files"
 os.chdir(path)
@@ -39,3 +42,5 @@ for i, filename in enumerate(os.listdir(os.getcwd())):
 
 
 print("PURE_System")
+
+### PLACEHOLDER CODE
